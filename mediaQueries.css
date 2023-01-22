@@ -1,0 +1,156 @@
+/* MEdia queries */
+
+@media only screen and (min-width: 768px) and (max-width: 820px){
+  .right-nav{
+    max-width: 50%;
+  }
+  .nav-list li{
+    padding: 25px 15px;
+  }
+}
+
+@media only screen and (max-width: 640px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-list li{
+        padding: 7px;
+    }
+    .logo{
+        width: 50%;
+    }
+}
+
+
+/* for ipad */
+@media only screen and (min-width: 641px) and (max-width: 1007px){
+    .right-nav{
+        display: flex;
+        /* flex-direction: column; */
+        /* align-items: center; */
+    }
+    .secondHalf{
+        width: 90%;
+    }
+
+    .players{
+        max-width: 100%;
+    }
+    .paras{
+        max-width: 66%;
+        padding: 0 12px;
+    }
+    .thumbnail {
+        max-width: 30%;
+    }
+    .form{
+        max-width: 75%;
+    }
+    .btn-contact{
+        display: block;
+        margin: auto;
+    }
+    #footer{
+        margin-top: 10px;
+    }
+}
+
+/* for Mobile devices */
+@media only screen and (min-width:279px) and (max-width: 640px){
+
+    .btn-sm{
+        display: block;
+        margin: auto;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 95%;
+    }
+    .text-big{
+        font-size: 30px;
+    }
+    .secondHalf{
+        width: 70%;
+    }
+    .secondHalf img{
+        width: 50%;
+    }
+
+    .players{
+        flex-direction: column-reverse;
+    }
+    .thumbnail{
+        max-width: 60%;
+    }
+    .paras{
+        max-width: 100%;
+        padding: 0 5px;
+    }
+    .sectionTag{
+        font-size: 1.3rem;
+    }
+    .form{
+        max-width: 75%;
+    }
+    .btn-contact{
+        display: block;
+        margin: auto;
+    }
+    #footer{
+        margin-top: 10px;
+    }
+
+    /* for hamburger menu */
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 60px;
+    }
+    .visibility-class{
+        opacity: 0;
+    }
+    .navbar{
+        /* height: 400px; */
+        transition: all 0.3s ease-out;
+    }
+}
+
+
+/* galaxy fold */
+@media only screen and (max-width: 280px){
+
+    #search{
+        font-size: 11px;
+    }
+
+    .btn-sm{
+        display: block;
+        margin: auto;
+    }
+    #players{
+        font-size: 2rem;
+    }
+    .sectionTag{
+        font-size: 1.15rem;
+    }
+    .sectionSubTag{
+        font-size: 1rem;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 55px;
+    }
+    .visibility-class{
+        opacity: 0;
+    }
+    .navbar{
+        /* height: 400px; */
+        transition: all 0.3s ease-out;
+    }
+}
